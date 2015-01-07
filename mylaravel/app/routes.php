@@ -29,7 +29,7 @@ Route::get('services', function()
 
 Route::get('contact', function()
 {
-  return View::make('home');		
+  return View::make('contact');		
 });
 Route::post('contact', function()						
 {
